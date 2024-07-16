@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é parte da disciplina de Introdução à Programação de Computadores e tem como objetivo explorar e verificar alguns algoritmos para encontrar o determinante em matrizes. O projeto inclui funcionalidades como criação, manipulação, .
+Este projeto é parte da disciplina de Introdução à Programação de Computadores e tem como objetivo explorar e verificar e comparar alguns algoritmos para encontrar o determinante em matrizes. O projeto inclui funcionalidades como criação, manipulação, e a implementação do cálculo do determinante usando o Teorema de Laplace.
 
 ## Estrutura do Projeto
 
