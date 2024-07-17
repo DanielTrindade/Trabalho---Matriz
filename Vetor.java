@@ -32,5 +32,14 @@ public class Vetor {
     }
     return count;
   }
-  
+  //método que retorna a posição do maior elemento
+  public int getPosMax() {
+    int posMax = 0;
+    for(int i = 1; i < this.getTamanho(); i++) {
+      if(this.getElemento(i) > this.getElemento(posMax)) {
+        posMax = i;
+      }
+    }
+    return posMax;
+  }
 }
