@@ -1,3 +1,5 @@
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.util.Random;
 
 public class Matriz {
@@ -106,6 +108,16 @@ public class Matriz {
         System.out.print(this.getElemento(i, j) + " ");
       }
       System.out.println();
+    }
+  }
+
+  public void imprimeMatriz(BufferedWriter writer) throws IOException {
+    writer.write("Matriz usada para a determinante:\n");
+    for(int i = 0; i < this.getNumLinhas(); i++){
+      for(int j = 0; j < this.getNumColunas(); j++){
+        writer.write(this.getElemento(i, j) + " ");
+      }
+      writer.write("\n");
     }
   }
 

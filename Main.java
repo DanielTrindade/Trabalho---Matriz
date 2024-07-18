@@ -11,6 +11,7 @@ public class Main {
                   MatrizQuadrada mat3 = new MatrizQuadrada(i);
                   mat.inicializaRandomico();
                   writer.write("Medida para a Matriz Quadrada de Ordem " + i + ": " + (j + 1) + "\n");
+                  mat.imprimeMatriz(writer);
                   mat2.copiarValores(mat);
                   mat3.copiarValores(mat);
                   mat2.imprimirEstatisticasDeterminanteV1(writer);
