@@ -2,14 +2,13 @@
 
 ## Descrição
 
-Este projeto é parte da disciplina de Introdução à Programação de Computadores e tem como objetivo explorar e verificar e comparar alguns algoritmos para encontrar o determinante em matrizes. O projeto inclui funcionalidades como criação, manipulação, e a implementação do cálculo do determinante usando o Teorema de Laplace.
+Este projeto é parte da disciplina de Introdução à Programação de Computadores e tem como objetivo explorar e verificar e comparar alguns algoritmos para encontrar o determinante em matrizes. O projeto inclui funcionalidades como criação, manipulação, e a implementação do cálculo do determinante usando o Teorema de Laplace, primeiro usando uma abordagem ingênua e a segunda usando uma otimização que foi proposta.
 
 ## Estrutura do Projeto
 
 - `Main.java`: Classe principal que executa o programa.
 - `Vetor.java`: Classe que representa vetores e contém métodos para manipulação de vetores.
 - `Matriz.java`: Classe que representa matrizes gerais e contém métodos para operações com matrizes.
-- `MatrizQuadrada.java`: Classe derivada de `Matriz` que adiciona métodos específicos para matrizes quadradas, como cálculo de determinante usando o Teorema de Laplace.
 
 
 ## Funcionalidades
@@ -21,7 +20,8 @@ Este projeto é parte da disciplina de Introdução à Programação de Computad
    - Inicialização de matrizes com valores fornecidos pelo usuário ou aleatórios.
 
 3. **Operações Avançadas**:
-   - Determinante de uma matriz.
+   - Determinante de uma matriz NxN usando o algoritmo baseline
+   - Determinante de uma matriz NxN usando a otmização proposta.
 
 ## Instruções para Execução
 
@@ -43,3 +43,6 @@ Este projeto é parte da disciplina de Introdução à Programação de Computad
 
    ```bash
    java Main
+3. **Resultado**
+   Depois de executar será criado um arquivo chamado resultado.txt
+   que contém a saída do algoritmo.
